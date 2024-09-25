@@ -1,0 +1,6 @@
+*.mp4
+*.vtk
+CmakeFiles/
+Makefile
+cmake_install.cmake
+CMakeCache.txt
