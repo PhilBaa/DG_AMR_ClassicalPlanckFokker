@@ -1,6 +1,9 @@
 *.mp4
 *.vtk
-CmakeFiles/
-Makefile
-cmake_install.cmake
-CMakeCache.txt
+*png
+__pycache__/*
+.cmake*
+build/CMake*
+build/cmake*
+*MakeFiles*
+MakeFile
