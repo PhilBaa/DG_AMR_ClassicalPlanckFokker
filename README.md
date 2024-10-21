@@ -1,10 +1,12 @@
 # Classical Fokker-Planck Equation using a DG Method with AMR in Dealii
 
-This is a modified and combined version of the deal.ii tutorial [step 12](https://www.dealii.org/current/doxygen/deal.II/step_12.html) and [step 26](https://www.dealii.org/current/doxygen/deal.II/step_26.html). After cloning the repo it can be executed by
+This is a modified and combined version of the deal.ii tutorial [step 12](https://www.dealii.org/current/doxygen/deal.II/step_12.html) and [step 26](https://www.dealii.org/current/doxygen/deal.II/step_26.html). After cloning the repo it can be executed like any other deal.ii tutorial. For example by
 
-`cmake -s source -b build`
-`cd build/`
-`make run`
+```
+cmake -s source -b build
+cd build/
+make run
+```
 
 ## Strong and Weak Formulation
 The classical Fokker-Planck equation describes the evolution of a distribution $w(t, x, p)$ in phase space with position $x$ and momentum $p$ due to a Hamiltonian flow and diffusion caused by coupling to an environment. Its strong formulation is (see [[1]](#1))
